@@ -1,0 +1,344 @@
+
+h1 {
+font-family: "Corbel", cursive, sans-serif;
+color: #3333ff;
+border-bottom: solid 5px #668cff;
+text-align:center;
+
+}
+
+h2{
+	font-family: "Century Gothic", cursive, sans-serif;
+text-align:center;
+color: #293d3d;
+}
+
+h3{
+font-family: "Britannic Blod", cursive, sans-serif;
+text-align:center;
+color: black;	
+
+}
+h4{
+	font-family: "Corbel", cursive, sans-serif;
+
+color: black;
+
+}
+h5{
+font-family: "Corbel", cursive, sans-serif;
+color: #3333ff;
+}
+h6{
+
+font-family: "Corbel", cursive, sans-serif;
+color: #3333ff;
+text-align:center;
+}
+ol{
+	font-family: "Century Gothic", cursive, sans-serif;
+}
+{
+	margin: 0px;
+	padding:0px;
+}
+div#general{
+	margin:auto;
+	margin-top:30px; 
+	
+	width:1000px;
+	height: 530px;
+	background-color: #94b8b8;
+}
+
+div#datosi{
+	float: right;
+	width: 330px;
+	height: 510px;
+	background-color:#4d4dff;
+	border-style: dashed;
+}
+
+div#datosd{
+	
+	width: 650px;
+	height: 160px;
+	background-color: #ccccff;	
+	
+
+}
+div#datosf{
+	width: 650px;
+	height: 350px;
+	background-color: #99b3ff;
+	border-style: dotted;
+
+} 
+div#experiencia{
+	margin:auto;
+	margin-top:30px; 
+	width:800px;
+	height: 310px;
+	background-color:#b3b3ff;
+	border-style: dotted;
+}
+div#elementos{
+	margin:auto;
+	margin-top:30px; 
+	
+	width:1000px;
+	height: 310px;
+	background-color:#dd99ff;
+	border-style: dotted;
+}
+div#sobremi{
+	margin:auto;
+	margin-top:30px; 
+	
+	width:1000px;
+	height: 310px;
+	background-color:#ccff99;
+	border-style: double;
+}
+div#primera{
+	margin:auto;
+	margin-top:30px; 
+	
+	width:1000px;
+	height: 300px;
+	background-color: #9999ff;
+	border-style: double;
+	border-color: white;
+}
+div#misvideosycontenido{
+	margin:auto;
+	margin-top:30px; 
+	
+	width:1000px;
+	height: 2040px;
+	background-color: #ff99cc;
+	}
+div#migaleria{
+	margin:auto;
+	margin-top:30px; 
+	
+	width:700px;
+	height: 950px;
+
+	}
+	div#formulario{
+	margin:auto;
+	margin-top:30px; 
+	
+	width:1000px;
+	height: 850px;
+border-style: double;
+background-color: #4d4dff;
+	}
+
+p{font-family: "Corbel", cursive, sans-serif;
+
+color: black;}
+ul{
+	list-style-type: circle;
+}
+ol{
+	list-style-type: decimal-leading-zero; padding-left: 2em;
+
+}
+video{
+
+padding-top: 10px;
+width: 50%;
+margin:auto;
+display: block;
+
+
+}
+audio{
+
+padding-top: 10px;
+
+width: 50%;
+margin:auto;
+display: block;
+}
+img{
+
+	height:280px; 
+	width:auto;
+	margin:auto;
+	display: block;
+	border-radius: 40px;
+	box-shadow: 8px 5px 0px #ccc;
+
+}
+iframe{
+ width:560px;
+  height:315px;
+ 
+  align-content:center;
+}
+
+
+
+#main-container{
+	margin:20px auto;
+	width: 70%;
+
+/*para que nuestra tabla este centrada */
+}
+	table{
+ border-collapse: collapse;
+  /*La border-collapsepropiedad establece si los bordes de la 
+  tabla deben colapsarse en un solo borde:*/
+  background-color: #6666ff;/*especifica el color de la tabla*/
+}
+table, th, td {
+  border: 1px solid black;
+}/*poner el borde en cada uno de los elementos de la tabla*/
+th{color: white;
+	background-color:  #000080;
+}
+
+table tr:hover {
+	background: #ccc;
+	/*cambia de color cuando el usuario se mueve en las filas*/
+}
+tr:nth-child(even){
+	background-color: #9999ff;
+/*Para las tablas con rayas de cebra, 
+use el nth-child()selector y agregue background-colora todas las filas de la tabla pares*/
+}
+
+p {
+
+
+font-family: "Gadugi", cursive, sans-serif;
+color: #000066;
+text-align:center;
+}
+*{
+	margin:0;
+	padding:0;
+
+
+}
+fieldset{
+
+}
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+header{
+	width: 100%;
+
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: #8080ff;
+	
+}
+
+.navegacion ul{
+	list-style: none;
+
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Century Gothic';
+	text-decoration: none;
+
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Century Gothic';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+fieldset{
+
+}
+
+input[type=text]{
+	background-color:  #ff9999;
+border: none;
+  border-bottom: 2px solid red;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #000080;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+select {
+  width: 80%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffff66;
+}
+textarea{
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #b3ffb3;
+  resize: none;
+  font-family: "Century Gothic",  sans-serif;
+}
+legend{
+	font-family: "Century Gothic",  sans-serif;
+}
+
+
+
+
+
